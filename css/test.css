@@ -1,0 +1,54 @@
+
+.text {
+  padding-bottom: 150px;
+}
+.text p,
+.text ul {
+  margin: 20px 0;
+  font-size: 18px;
+}
+.text > p {
+  color: red;
+}
+.test-p ~ p {
+  color: yellowgreen;
+}
+
+.custom-checkbox {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid red;
+}
+.checkbox-wrap {
+  display: block;
+  background-color: yellow;
+}
+.checkbox {
+  display: none;
+}
+.checkbox {
+  display: block;
+}
+.checkbox:checked + span {
+  background-color: yellowgreen;
+  border: 2px solid #000;
+}
+.test-img-html{
+    object-fit: contain;
+    object-position: center;
+}
+.test-img-css{
+    width: 200px;
+    height: 200px;
+
+    background: url(../img/team1.png);
+    
+    background-size: contain;
+    background-position: center;
+}
+/* 
+.test{
+    display: flex;
+    display: -webkit-flex;
+} */
